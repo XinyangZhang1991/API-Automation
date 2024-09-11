@@ -1,4 +1,4 @@
-# Turn the testcase in Excel spreadsheet into the one we need
+# Turn the testcase in Excel spreadsheet into the dictionary format  we need
 
 from openpyxl import load_workbook
 from tools.handle_path import excel_path_day16
