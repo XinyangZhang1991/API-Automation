@@ -14,7 +14,7 @@ def test_login_case(case):
     response = requests_api(case)
     print(response)
     expected_result = case['expected_result']
-    print (expected_result)
+    print(expected_result)
     response_assertion(response,expected_result)
 
 # if __name__ =='__main__':

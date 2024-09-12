@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/Ginny.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/xinyangapitesting.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/~$xinyangapitesting.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/testcase1_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/handle_response_assert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="added a number of functions in tool folder">
+      <change afterPath="$PROJECT_DIR$/data/my_sql_database_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/handle_mysql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/API-Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API-Automation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/handle_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/handle_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/handle_request_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_request_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/testcase1_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_case1_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +53,18 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests in test_case1_login.py.executor": "Run",
     "Python.handle_excel (1).executor": "Run",
     "Python.handle_excel.executor": "Run",
+    "Python.handle_mysql.executor": "Run",
     "Python.handle_path (1).executor": "Run",
     "Python.handle_path.executor": "Run",
     "Python.testcase1_login.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/xinyang/Documents/Lemon Python Learning/API-Automation/data"
+    "last_opened_file_path": "/Users/xinyang/Documents/Lemon Python Learning/API-Automation/data",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +76,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testcase1_login">
+  <component name="RunManager" selected="Python.handle_mysql">
     <configuration name="handle_excel (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
@@ -101,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="handle_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/handle_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/handle_mysql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,29 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="API-Automation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/handle_path.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testcase1_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_case1_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/testcase1_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/test_case1_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,13 +165,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_case1_login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API-Automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_case1_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testcase1_login" />
+        <item itemvalue="Python.handle_mysql" />
+        <item itemvalue="Python tests.Python tests in test_case1_login.py" />
+        <item itemvalue="Python.test_case1_login" />
         <item itemvalue="Python.handle_excel (1)" />
         <item itemvalue="Python.handle_path (1)" />
-        <item itemvalue="Python.handle_excel" />
-        <item itemvalue="Python.handle_path" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +206,15 @@
       <option name="presentableId" value="Default" />
       <updated>1725192448711</updated>
     </task>
+    <task id="LOCAL-00001" summary="added a number of functions in tool folder">
+      <option name="closed" value="true" />
+      <created>1726085589150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726085589151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,5 +230,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added a number of functions in tool folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a number of functions in tool folder" />
   </component>
 </project>
