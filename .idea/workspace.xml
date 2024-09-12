@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="added a number of functions in tool folder">
-      <change afterPath="$PROJECT_DIR$/data/my_sql_database_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/handle_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/API-Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API-Automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/testcase1_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_case1_login.py" afterDir="false" />
+    <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="add a function of handle_mysql.py">
+      <change beforePath="$PROJECT_DIR$/tools/handle_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_mysql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726085589151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add a function of handle_mysql.py">
+      <option name="closed" value="true" />
+      <created>1726175793362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726175793362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +235,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added a number of functions in tool folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a number of functions in tool folder" />
+    <MESSAGE value="add a function of handle_mysql.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a function of handle_mysql.py" />
   </component>
 </project>

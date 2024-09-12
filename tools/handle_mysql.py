@@ -8,6 +8,7 @@ from loguru import logger
 class Handlemysql:
     def __init__(self,user,password,database,port,host):
         # two instance attributes (connection, cursor) were defined, therefore can be used for future instance method
+        # Using self ensures that these variables are available across all methods in that particular instance.
         self.connection = pymysql.connect(
                         user="lemon_auto",
                         password="lemon!@123",
@@ -41,7 +42,7 @@ class Handlemysql:
         finally:
             self.cursor.close()
             self.connection.close()
-
+# Self is used to differentiating Between Local and Instance Variables:Inside a method, without self, any variable you define would be considered a local variable that is scoped only to that function.When you use self, it makes it clear that the variable or method being referenced belongs to the object instance (and not just a local function variable).
 
 if __name__ == '__main__':
     sql = 'select user_phone,mobile_code from tz_sms_log where user_phone = "13555554444" order by rec_date desc;'
@@ -52,6 +53,6 @@ if __name__ == '__main__':
             "port": 3306,
             "host": "mall.lemonban.com"
         }
-    handle_sql= Handlemysql(**my_db) #The ** syntax in Python is used to unpack a dictionary into keyword arguments when passing them to a function or class constructor.
+    handle_sql= Handlemysql(**my_db) #The ** : unpack a dictionary into keyword arguments when passing them to a function or class constructor.
     result=handle_sql.query_data(sql)
 print(result)
