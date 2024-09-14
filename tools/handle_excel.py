@@ -10,11 +10,11 @@ def read_excel(filename,sheetname):
     case_all = list(sh.values)
     print(case_all)
     title = case_all[0]
-    case_list = []  #Initalise an empty list for zip dictionary later
+    entire_testcase_list = []  #Initalise an empty list for zip dictionary later
     for case in case_all[1:]:  #从列表中的第二个开始,因为第一个数据是标题
         data = dict(zip(title, case))
         print(data)
-        entire_testcase_list = case_list.append(data)
+        entire_testcase_list.append(data)
     return entire_testcase_list
 
 if __name__ =='__main__':
