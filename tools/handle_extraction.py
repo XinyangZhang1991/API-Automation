@@ -1,6 +1,6 @@
 import json
 from jsonpath import jsonpath
-from data.Environmetnal_Data import EnviromentalData
+from data.Environmental_Data import EnviromentalData
 from loguru import logger
 
 

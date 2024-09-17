@@ -55,4 +55,4 @@ if __name__ == '__main__':
         }
     handle_sql= Handlemysql(**my_db) #The ** : unpack a dictionary into keyword arguments when passing them to a function or class constructor.
     result=handle_sql.query_data(sql)
-print(result)
+    print(result)
