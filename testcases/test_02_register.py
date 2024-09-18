@@ -9,7 +9,7 @@ from tools.handle_response_assert import response_assertion
 
 # step 1 : read from the excel spreadsheet
 
-case_all=read_excel(excel_path_xinyangapitesting,'register')
+case_all=read_excel(excel_path_xinyangapitesting,'test_register')
 
 @pytest.mark.parametrize('case',case_all)
 def test_register_case(case):

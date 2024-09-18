@@ -34,7 +34,7 @@ def requests_api(case,token=None):
             file_obj = {'file':open(file_path/filename,'rb')}
             resp =requests.request(method=method,url=url,header=header, files=file_obj)
     elif method.lower() =='put':
-        pass
+        resp=requests.request(method=method,url=url,headers=header,json=param)
     logger.info('---response message------')
     logger.info(f'response status code:{resp.status_code}')
     logger.info(f'response body: {resp.text}')
