@@ -2,7 +2,7 @@ from tools.handle_mysql import Handlemysql
 from data.Environmental_Data import EnviromentalData
 from loguru import logger
 from data.my_sql_database_info import my_db_details
-
+import json
 
 
 def pre_sql(sql_data):

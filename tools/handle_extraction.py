@@ -8,9 +8,19 @@ def data_extraction(api_response,response_extraction):
     if response_extraction is None:
         logger.info('no data extraction')
         return # this return terminates this function at this point, none of the subsequent code is executed
+
     logger.info('-------data extraction start--------')
+    # Check if api_response is a string that might be JSON
+    if isinstance(api_response, str):
+        try:
+            api_response = json.loads(api_response)
+        except json.JSONDecodeError:
+            logger.error('Response is not a valid JSON string')
+            return
+
     response_extraction = json.loads(response_extraction)
     logger.info(f'data has been extracted in this round is {response_extraction}')
+
     # Iterate over the key-value pairs in the dictionary
     for key,value in response_extraction.items():
         # extract teh value from api_response using jsonpath

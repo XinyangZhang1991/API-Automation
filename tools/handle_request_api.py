@@ -12,7 +12,9 @@ def requests_api(case,token=None):
     url=case['url']
     header=case['request_header']
     param=case['request_parameter']
+    response_extraction_in_excel = ['response_extraction']
     presql = case['pre_sql']
+    # Handle data replacements and pre-SQL execution
     presql=replace_data(presql)
     pre_sql(presql)
     header=replace_data(header)
@@ -24,7 +26,7 @@ def requests_api(case,token=None):
             header["authoriazation"]=token
     if param is not None:
         param =json.loads(param)
-
+    # Make the HTTP request
     if method.lower() == 'get':
         resp =requests.request(method=method,url=url,headers=header,params=param)
     elif method.lower() == 'post':
@@ -39,10 +41,22 @@ def requests_api(case,token=None):
             resp =requests.request(method=method,url=url,header=header, files=file_obj)
     elif method.lower() =='put':
         resp=requests.request(method=method,url=url,headers=header,json=param)
+        print(f'put method response is {resp}')
+
     logger.info('---response message------')
     logger.info(f'response status code:{resp.status_code}')
     logger.info(f'response body: {resp.text}')
-    data_extraction(resp,case['response_extraction'])
+
+
+    # Handle non-JSON responses
+    try:
+        response_data = resp.json()  # Try to parse as JSON
+    except requests.JSONDecodeError:
+        response_data = resp.text  # If not JSON, treat it as plain text
+
+    data_extraction(response_data,response_extraction_in_excel)
+    logger.info(f'data  in response_extraction column of the excel sheet is {response_extraction_in_excel} ')
+
     return resp
 
 
