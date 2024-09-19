@@ -29,6 +29,6 @@ def read_excel(filename,sheetname):
         logger.error (f"File'{filename}'not found.")
         return []
 
-# if __name__ =='__main__':
-#     from handle_path import excel_path_day16
-#     print(read_excel(excel_path_day16,'登录'))
+if __name__ =='__main__':
+    from tools.handle_path import excel_path_xinyangapitesting
+    case_all=read_excel(excel_path_xinyangapitesting,'test_register')

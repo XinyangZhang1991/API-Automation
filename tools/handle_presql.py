@@ -15,7 +15,7 @@ def pre_sql(sql_data):
     logger.info(f'pre-sql query is {sql_data}')
 
     # step 3:
-    for key, value in sql_data.item():  # .item () is to get all the keyvalue pairs in a dictionary
+    for key, value in sql_data.items():  # .item () is to get all the keyvalue pairs in a dictionary
         # step 4: search the data in db using the encapsulated functions in handle_mysql
         # sql_result will get us the real result
         sql_result = Handlemysql(**my_db_details).query_data(value)
