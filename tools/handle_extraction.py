@@ -14,7 +14,7 @@ def data_extraction(api_response,response_extraction):
     if isinstance(api_response, str):
         try:
             api_response = json.loads(api_response)
-        except json.JSONDecodeError:
+        except json.JSONDecodeError as e:
             logger.error('Response is not a valid JSON string')
             return
 

@@ -13,7 +13,7 @@ def read_excel(filename,sheetname):
         sh = wb[sheetname] #固定的格式，就得这么写
     #     convert the sheet values into a list
         case_all = list(sh.values)
-        print(case_all)
+
 
         title = case_all[0] # Extract title header
         entire_testcase_list = []  #Initalise an empty list for zip dictionary later
@@ -31,4 +31,4 @@ def read_excel(filename,sheetname):
 
 if __name__ =='__main__':
     from tools.handle_path import excel_path_xinyangapitesting
-    case_all=read_excel(excel_path_xinyangapitesting,'test_register')
+    case_all=read_excel(excel_path_xinyangapitesting,'test_business_flow')

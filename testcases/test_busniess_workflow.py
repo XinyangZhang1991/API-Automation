@@ -8,7 +8,7 @@ from tools.handle_response_assert import response_assertion
 case_all=read_excel(excel_path_xinyangapitesting,'test_business_flow')
 
 
-@pytest.mark.parametrize('case',all_case)
+@pytest.mark.parametrize('case',case_all)
 def test_business_workflow(case):
     resp=requests_api(case)
     expected=case['expected_result']
