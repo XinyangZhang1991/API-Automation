@@ -19,21 +19,25 @@ def requests_api(case,token=None):
         presql=replace_data(presql)
         pre_sql(presql)
 
-    header=replace_data(header)
+    header = replace_data(header)
+    logger.info(f"Header after replacement: {header}")
     param=replace_data(param)
+    logger.info(f"parameter after replacement is: {param}")
 
-    if header is not None:
+    if header is None:  # Ensure that `header` is a dictionary, even if None initially
+        header={}
+    else:
         try:
             header = json.loads(header)
         except json.JSONDecodeError as e:
             logger.error(f'Header JSON decode error:{e}')
             logger.error(f"Received header: {header}")
             return
-
+        # Ensure token is added to the header if available
         if token is not None:
             header["authorization"]=token
-    else:
-        header={}  # Ensure that `header` is a dictionary, even if None initially
+
+
 
     if param is not None:
 
@@ -111,13 +115,13 @@ if __name__ =='__main__':
     # case_3={'test_case': 1, 'case_details': 'login sucessful ', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}', 'request_parameter': '{"principal":"lemon_py","credentials":"12345678","appType":3,"loginType":0}', 'expected_result': '{"nickName": "lemon_py","enabled": true}', 'response_extraction': '{"access_token":"$..access_token","token_type":"$..token_type"}', 'database_assertion': None, 'pre_sql': None}
     # requests_api(case_3, token=None)
     # busniessflow2
-    # case_4 = {'test_case': 2, 'case_details': 'search for a product ', 'request_method': 'get',
-    #           'url': 'http://shop.lemonban.com:8107/search/searchProdPage', 'request_header': None,
-    #           'request_parameter': '{"prodName":"真皮圆筒包"}', 'expected_result': None,
-    #           'response_extraction': '{"prodId":"$..prodId"}', 'database_assertion': None, 'pre_sql': None}
-    # requests_api(case_4, token=None)
+    case_4 = {'test_case': 2, 'case_details': 'search for a product ', 'request_method': 'get',
+              'url': 'http://shop.lemonban.com:8107/search/searchProdPage', 'request_header': None,
+              'request_parameter': '{"prodName":"真皮圆筒包"}', 'expected_result': None,
+               'response_extraction': '{"prodId":"$..prodId"}', 'database_assertion': None, 'pre_sql': None}
+    requests_api(case_4, token=None)
     case_5 = {'test_case': 3, 'case_details': 'go to the specific product prage ', 'request_method': 'get',
               'url': 'http://shop.lemonban.com:8107/prod/prodInfo', 'request_header': None,
-               'request_parameter': '{"prodId":#prodId#}', 'expected_result': None, 'response_extraction': '{"skuId":"$..skuId"}',
+               'request_parameter': '{"prodId":"#prodId#"}', 'expected_result': None, 'response_extraction': '{"skuId":"$..skuId"}',
                 'database_assertion': None, 'pre_sql': None}
     requests_api(case_5, token=None)

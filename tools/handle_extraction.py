@@ -15,6 +15,7 @@ def data_extraction(api_response,response_extraction_in_excel):
     if isinstance(api_response, requests.Response):
         try:
             api_response = api_response.json()  # Convert response to JSON if it's a Response object
+            logger.info(f'api response is {api_response}')
         except requests.JSONDecodeError as e :
             logger.error("Failed to parse response as JSON")
             return None  # Handle the error appropriately
@@ -37,14 +38,15 @@ def data_extraction(api_response,response_extraction_in_excel):
         logger.info(f'data has been extracted from excelsheet is {response_extraction_in_excel}')
     except json.JSONDecodeError as e:
         logger.error(f"Failed to parse response_extraction as JSON: {e}")
-    return None
+        return
 
     if isinstance(response_extraction_in_excel, dict):
       # Iterate over the key-value pairs in the dictionary
-        for key,value in response_extraction.items():
+        for key,value in response_extraction_in_excel.items():
             try:
                 # extract teh value from api_response using jsonpath
                 value_to_save=jsonpath(api_response, value)[0]
+                logger.info(f'data found from API response is {value_to_save}')
                 # set the attribute in EnvironmentalData class
                 setattr(EnviromentalData,key,value_to_save)
                 logger.info(f'data has been saved into the environmental files attribute is {EnviromentalData.__dict__}')
@@ -52,6 +54,8 @@ def data_extraction(api_response,response_extraction_in_excel):
                 logger.error(f"Error extracting data for {key}: {e}")
     else:
         logger.error("Invalid response_extraction format; must be a dictionary")
+
+
 if __name__ == '__main__':
     response = {"access_token": "0efdce50-0e2f-4ed0-b4d1-944be5ab518a",
                 "token_type": "bearer", "refresh_token": "4bfc3638-e7e4-4844-a83d-c0f8340bc146",
