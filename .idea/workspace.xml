@@ -4,118 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="more modifications">
-      <change afterPath="$PROJECT_DIR$/allure-report/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/1ca1a703-d96e-4c25-9e75-aa11d1339fdc-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/20c01efd-ba96-41cf-bb64-df3130f33084-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/250c854e-35eb-4063-a904-dccd82612534-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/333ae19e-62e4-46b9-b097-90c164646fe0-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/344a47cd-705c-40a4-ad52-e24b4cb58ded-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/34726322-ed0b-4f41-aec8-1d5ad759d8e1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/3e531f89-8932-4451-a517-aae671cf04d7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/482b812d-b64b-4dc2-a42d-157f73996557-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/4b1f3368-4434-4fb8-8296-bd1a36625374-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/4d19967b-d562-450b-9f14-740ae63e4fad-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/4e5b6df2-8be8-4c1c-9ccb-6a963d3f3397-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/511cc50a-662f-4113-b703-4f4dc7a4e56a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/56bea1b3-504e-4591-8ae3-d548e097554f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/5bacb1fd-e39d-45cf-9f08-218bdbce061d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/6eac6286-94dc-451e-b2fc-81d39cf0227e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/736b1067-f3fd-4621-9461-55a0fadd30ae-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/76626c58-a8f1-458f-a42f-0f106bee0d6b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/76ce4d88-c919-4b78-aa30-9efefd4656e6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/79f0e75e-b358-46dc-a86a-1c1e4e6c62eb-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/7af17893-b4b3-4ff4-ac04-589ce1eae60c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/7d5ad844-65e8-4c0b-a04e-745097260a99-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/8436c1f9-e676-4470-a630-9562418bb87f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/8b73f7c9-ad42-42cd-a390-035324d77937-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/9ca5826d-b768-4369-b7a3-3d0a8f7575c3-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/a04840de-3aa4-42a6-b1cd-e31e4c2f21b5-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/a8217c49-ae9b-45cc-ab39-0f4fe25e9dd8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/ae47dd36-e57c-4a6e-9982-6a44c2615379-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/b563c507-2426-4f34-9d34-b629dfe778fa-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/b61d27c3-e793-43f4-ab53-dd96bba8513f-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/c2aacb5c-8063-4102-b119-edf8491ac14c-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/c478df09-b39a-4a5d-b272-ca2ede817cc8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/c6415aea-73df-40ff-a0a9-8762863a9a73-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/cafc49f6-7a0f-4e6e-b696-3e34efe1861f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/d4a6ac9d-80dd-40db-8d9e-f3f0ce8f2d54-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/d735255b-278f-40ce-821f-ff784da9972f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/e1e55aeb-3389-4e5e-9ad9-965a439946b5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/e2ae11d3-87cb-48b2-937b-eefb7ac6112e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/e7e6a893-edd0-44f7-8a86-d84376de9cf2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/eb3df0fa-b966-4044-8b6c-851784c9275c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/ee7ea379-2f25-457d-ac99-a3c5d7065479-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/f4af83b9-b555-445b-8553-75e3cb05dbb5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/fbc6f275-24da-4e3b-b0b2-354e688dcbc7-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/fd65f0ef-d26f-4c8f-8b68-07112cca916a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/allure_report/fe7cd35c-9a5d-4802-a689-97122030e412-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/01305f84-3b59-40b2-8831-1f2c81b4d8ab-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/04901682-9f13-4d57-8463-48b04ddfbf88-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/058d0814-af8b-404e-9721-870cd345c718-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/069ca0e1-e5c4-42e3-9064-96b72b3bb46c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/0d11d5a6-391e-4e86-a504-ed4ffed53bea-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/1cbbce15-9f8b-4beb-b82b-0f1d0550375d-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/1cc61a4c-12aa-4d40-aad1-3348b4ea6fba-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/1ed653c8-7594-4bb9-9dcc-2d40ba68c683-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/347f44be-18e9-44c8-ad3b-42d2123f1852-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/47b990d4-aa32-4063-882a-25060ada75fa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/4d97e4da-e061-4753-8eac-b7552d9f488c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/8225808b-b366-4548-88bc-27b37ec5b253-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/8227c33e-3bb2-4446-bd8a-53262734f0a4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/8aeccb14-4d1b-4393-be6b-4a0531cc6a65-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/9216a7e1-c00f-4c4c-8f8b-bbf011260a05-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/9de8b834-4663-4ae1-ac0d-3084a3964885-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/a56136b2-10c0-416a-9eb4-3a20aa1dbde4-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/ae0107f7-0e8f-40b9-85da-c17e521e99f6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/b53dd445-a80a-4beb-b51a-9a927c972ebd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/b9cf4e86-87c0-4938-9e3c-c32a9beb95f4-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/c5ba9a7e-e8e5-4920-aad1-61626ed0c457-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/d1eef6fe-0d17-48b3-b411-4b3ad690b947-attachment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/e1e97645-54a0-4f48-ae01-78e57b0b1afc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/eebcc406-3a55-46f3-b44e-3d450b6e74b2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/allure-results/f9e48a13-c1c1-49d6-a686-cb24afd1aa44-attachment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/xinyangapitesting.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/xinyangapitesting.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_busniess_workflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_busniess_workflow.py" afterDir="false" />
+    <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="added allure, made some update on the extraction files">
+      <change afterPath="$PROJECT_DIR$/data/~$xinyangapitesting own.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/xinyangapitesting.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/xinyangapitesting own.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_busniess_workflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_03_busniess_workflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/handle_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/handle_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/handle_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/handle_request_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_request_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +64,7 @@
     "Python tests.Python tests for test_busniess_workflow.test_business_workflow.executor": "Run",
     "Python tests.Python tests for test_case1_login.test_login_case.executor": "Run",
     "Python tests.Python tests in test_01_login.py.executor": "Run",
-    "Python tests.Python tests in test_02_register.py.executor": "Run",
+    "Python tests.Python tests in test_02_register.py.executor": "Debug",
     "Python tests.Python tests in test_02register.py.executor": "Run",
     "Python tests.Python tests in test_busniess_workflow.py.executor": "Run",
     "Python tests.Python tests in test_case1_login.py.executor": "Run",
@@ -203,7 +99,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_busniess_workflow.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_02_register.py">
     <configuration name="allure_setting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
@@ -218,6 +114,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/allure_setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handle_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API-Automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/handle_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,21 +166,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_busniess_workflow.test_business_workflow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="API-Automation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_busniess_workflow.test_business_workflow&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in test_01_login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
@@ -278,7 +181,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_busniess_workflow.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_02_register.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,18 +191,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--alluredir\u003dallure-results&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_busniess_workflow.py&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_02_register.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_busniess_workflow.py" />
+        <item itemvalue="Python tests.Python tests in test_02_register.py" />
         <item itemvalue="Python tests.Python tests in test_01_login.py" />
-        <item itemvalue="Python.allure_setting" />
-        <item itemvalue="Python tests.Python tests for test_busniess_workflow.test_business_workflow" />
         <item itemvalue="Python.handle_request_api" />
+        <item itemvalue="Python.handle_excel" />
+        <item itemvalue="Python.allure_setting" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +286,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726958674004</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added allure, made some update on the extraction files">
+      <option name="closed" value="true" />
+      <created>1727123866678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727123866678</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added allure, made some update on the extraction files">
+      <option name="closed" value="true" />
+      <created>1727214569282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727214569282</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,6 +325,18 @@
     <MESSAGE value="added faker function in fake_data_generation.py file &#10;call this function in the handle_replacement.py file" />
     <MESSAGE value="added another test case" />
     <MESSAGE value="more modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="more modifications" />
+    <MESSAGE value="added allure, made some update on the extraction files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added allure, made some update on the extraction files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/test_02_register.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

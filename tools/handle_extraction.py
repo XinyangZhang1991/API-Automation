@@ -9,30 +9,30 @@ def data_extraction(api_response,response_extraction_in_excel):
     if response_extraction_in_excel is None:
         logger.info('no data extraction')
         return # this return terminates this function at this point, none of the subsequent code is executed
-
-    logger.info('-------data extraction start--------')
-    # check if api_response is a requests.Response,try to convert it to Json
-    if isinstance(api_response, requests.Response):
-        try:
-            api_response = api_response.json()  # Convert response to JSON if it's a Response object
-            logger.info(f'api response is {api_response}')
-        except requests.JSONDecodeError as e :
-            logger.error("Failed to parse response as JSON")
-            return None  # Handle the error appropriately
-    # Check if api_response is a string, attempt to parse it as JSON
-    if isinstance(api_response, str):
-        try:
-            api_response = json.loads(api_response)
-        except json.JSONDecodeError as e:
-            logger.error(f"Response is not a valid JSON string:{e}")
-            return
-    # If the response is still not a dict at this point, log an error
-    if not isinstance (api_response,dict):
-        logger.error('API response is not a valid dictionary or JSON')
-        return
-
-    # response_extraction_in_excel = what is written in the excel sheet
-    # Parse response_extraction if it is a string (assumed to be in JSON format)
+    #
+    # logger.info('-------data extraction start--------')
+    # # check if api_response is a requests.Response,try to convert it to Json
+    # if isinstance(api_response, requests.Response):
+    #     try:
+    #         api_response = api_response.json()  # Convert response to JSON if it's a Response object
+    #         logger.info(f'api response is {api_response}')
+    #     except requests.JSONDecodeError as e :
+    #         logger.error("Failed to parse response as JSON")
+    #         return None  # Handle the error appropriately
+    # # Check if api_response is a string, attempt to parse it as JSON
+    # if isinstance(api_response, str):
+    #     try:
+    #         api_response = json.loads(api_response)
+    #     except json.JSONDecodeError as e:
+    #         logger.error(f"Response is not a valid JSON string:{e}")
+    #         return
+    # # If the response is still not a dict at this point, log an error
+    # if not isinstance (api_response,dict):
+    #     logger.error('API response is not a valid dictionary or JSON')
+    #     return
+    #
+    # # response_extraction_in_excel = what is written in the excel sheet
+    # # Parse response_extraction if it is a string (assumed to be in JSON format)
     try:
         response_extraction_in_excel = json.loads(response_extraction_in_excel)
         logger.info(f'data has been extracted from excelsheet is {response_extraction_in_excel}')

@@ -31,4 +31,4 @@ def read_excel(filename,sheetname):
 
 if __name__ =='__main__':
     from tools.handle_path import excel_path_xinyangapitesting
-    case_all=read_excel(excel_path_xinyangapitesting,'test_business_flow')
+    case_all=read_excel(excel_path_xinyangapitesting,'login')

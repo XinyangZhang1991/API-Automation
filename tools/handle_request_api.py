@@ -111,28 +111,38 @@ def requests_api(case,token=None):
 
 if __name__ =='__main__':
 
-    # busniessflow1
-    case_1={'test_case': 1, 'case_details': 'login sucessful ', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}', 'request_parameter': '{"principal":"lemon_py","credentials":"12345678","appType":3,"loginType":0}', 'expected_result': '{"nickName": "lemon_py","enabled": true}', 'response_extraction': '{"access_token":"$..access_token","token_type":"$..token_type"}', 'database_assertion': None, 'pre_sql': None}
-    requests_api(case_1, token=None)
-    # busniessflow2
-    case_2 = {'test_case': 2, 'case_details': 'search for a product ', 'request_method': 'get',
-              'url': 'http://shop.lemonban.com:8107/search/searchProdPage', 'request_header': None,
-              'request_parameter': '{"prodName":"真皮圆筒包"}', 'expected_result': None,
-               'response_extraction': '{"prodId":"$..prodId"}', 'database_assertion': None, 'pre_sql': None}
-    requests_api(case_2, token=None)
-    case_3= {'test_case': 3, 'case_details': 'go to the specific product prage ', 'request_method': 'get',
-              'url': 'http://shop.lemonban.com:8107/prod/prodInfo', 'request_header': None,
-               'request_parameter': '{"prodId":"#prodId#"}', 'expected_result': None, 'response_extraction': '{"skuId":"$..skuId"}',
-                'database_assertion': None, 'pre_sql': None}
-    requests_api(case_3, token=None)
+    # # busniessflow1
+    # case_1={'test_case': 1, 'case_details': 'login sucessful ', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}', 'request_parameter': '{"principal":"lemon_py","credentials":"12345678","appType":3,"loginType":0}', 'expected_result': '{"nickName": "lemon_py","enabled": true}', 'response_extraction': '{"access_token":"$..access_token","token_type":"$..token_type"}', 'database_assertion': None, 'pre_sql': None}
+    # requests_api(case_1, token=None)
+    # # busniessflow2
+    # case_2 = {'test_case': 2, 'case_details': 'search for a product ', 'request_method': 'get',
+    #           'url': 'http://shop.lemonban.com:8107/search/searchProdPage', 'request_header': None,
+    #           'request_parameter': '{"prodName":"真皮圆筒包"}', 'expected_result': None,
+    #            'response_extraction': '{"prodId":"$..prodId"}', 'database_assertion': None, 'pre_sql': None}
+    # requests_api(case_2, token=None)
+    # case_3= {'test_case': 3, 'case_details': 'go to the specific product prage ', 'request_method': 'get',
+    #           'url': 'http://shop.lemonban.com:8107/prod/prodInfo', 'request_header': None,
+    #            'request_parameter': '{"prodId":"#prodId#"}', 'expected_result': None, 'response_extraction': '{"skuId":"$..skuId"}',
+    #             'database_assertion': None, 'pre_sql': None}
+    # requests_api(case_3, token=None)
+    #
+    # case_4={'test_case': 4, 'case_details': 'adding into the trolley', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/p/shopCart/changeItem', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{"basketId": 0, "count": 1, "prodId": "#prodId#", "shopId": 1, "skuId": "#skuId#"}', 'expected_result': None, 'response_extraction': None, 'database_assertion': None, 'pre_sql': None}
+    # requests_api(case_4, token=None)
+    # case_5={'test_case': 5, 'case_details': 'search trolley list ', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/p/shopCart/info', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{}', 'expected_result': None, 'response_extraction': '{"basketId":"$..basketId"}', 'database_assertion': None, 'pre_sql': None}
+    # requests_api(case_5, token=None)
+    # # case_6={'test_case': 6, 'case_details': 'tick the product ', 'request_method': 'POST', 'url': '\thttp://shop.lemonban.com:8107/p/shopCart/totalPay', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': None, 'expected_result': None, 'response_extraction': None, 'database_assertion': None, 'pre_sql': None}
+    # # requests_api(case_6, token=None)
+    # # case_7={'test_case': 7, 'case_details': 'confirm the order', 'request_method': 'POST', 'url': 'http://shop.lemonban.com:8107/p/order/confirm', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{"addrId": 0, "basketIds": "[#basketId#]", "couponIds": [], "isScorePay": 0, "userChangeCoupon": 0,       "userUseScore": 0}', 'expected_result': None, 'response_extraction': None, 'database_assertion': None, 'pre_sql': None}
+    # # requests_api(case_7, token=None)
+    # # case_8={'test_case': 8, 'case_details': 'submit the order', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/p/order/submit', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{"orderShopParam": [{"remarks": "", "shopId": 1}]}', 'expected_result': '{"$..duplicateError":null}', 'response_extraction': '{"orderNumbers":"$..orderNumbers"}', 'database_assertion': '"{""select count(*) from tz_order where order_number = \'#orderNumbers#\'"":1, \n""select status from tz_order where order_number = \'#orderNumbers#\'"":1}"', 'pre_sql': None}
+    # # requests_api(case_8, token=None)
+    #
 
-    case_4={'test_case': 4, 'case_details': 'adding into the trolley', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/p/shopCart/changeItem', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{"basketId": 0, "count": 1, "prodId": "#prodId#", "shopId": 1, "skuId": "#skuId#"}', 'expected_result': None, 'response_extraction': None, 'database_assertion': None, 'pre_sql': None}
-    requests_api(case_4, token=None)
-    case_5={'test_case': 5, 'case_details': 'search trolley list ', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/p/shopCart/info', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{}', 'expected_result': None, 'response_extraction': '{"basketId":"$..basketId"}', 'database_assertion': None, 'pre_sql': None}
-    requests_api(case_5, token=None)
-    # case_6={'test_case': 6, 'case_details': 'tick the product ', 'request_method': 'POST', 'url': '\thttp://shop.lemonban.com:8107/p/shopCart/totalPay', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': None, 'expected_result': None, 'response_extraction': None, 'database_assertion': None, 'pre_sql': None}
-    # requests_api(case_6, token=None)
-    # case_7={'test_case': 7, 'case_details': 'confirm the order', 'request_method': 'POST', 'url': 'http://shop.lemonban.com:8107/p/order/confirm', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{"addrId": 0, "basketIds": "[#basketId#]", "couponIds": [], "isScorePay": 0, "userChangeCoupon": 0,       "userUseScore": 0}', 'expected_result': None, 'response_extraction': None, 'database_assertion': None, 'pre_sql': None}
-    # requests_api(case_7, token=None)
-    # case_8={'test_case': 8, 'case_details': 'submit the order', 'request_method': 'post', 'url': 'http://shop.lemonban.com:8107/p/order/submit', 'request_header': '{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}', 'request_parameter': '{"orderShopParam": [{"remarks": "", "shopId": 1}]}', 'expected_result': '{"$..duplicateError":null}', 'response_extraction': '{"orderNumbers":"$..orderNumbers"}', 'database_assertion': '"{""select count(*) from tz_order where order_number = \'#orderNumbers#\'"":1, \n""select status from tz_order where order_number = \'#orderNumbers#\'"":1}"', 'pre_sql': None}
-    # requests_api(case_8, token=None)
+
+    login_testcase1 ={'test_case': 'login_001', 'case_details': 'Login_in_sucessful', 'request_method': 'post',
+     'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}',
+     'request_parameter': '{"principal": "lemon_py", "credentials": "12345678", "appType": 3, "loginType": 0}',
+     'expected_result': '{"$..nickName":"lemon_py","$..enabled":true}', 'response_extraction': None,
+     'database_assertion': None, 'pre_sql': None}
+
+    requests_api(login_testcase1, token=None)

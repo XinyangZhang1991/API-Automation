@@ -18,6 +18,6 @@ file_path = pathlib.Path(__file__).absolute().parent.parent/"data"
 # testing_mall_path
 excel_path_day16= pathlib.Path(__file__).absolute().parent.parent/'data'/'testing_mall_day16.xlsx'
 # print (excel_path)
-excel_path_xinyangapitesting= pathlib.Path(__file__).absolute().parent.parent/'data'/'xinyangapitesting.xlsx'
+excel_path_xinyangapitesting= pathlib.Path(__file__).absolute().parent.parent/'data'/'xinyangapitesting own.xlsx'
 
 
