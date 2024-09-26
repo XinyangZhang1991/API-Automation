@@ -43,10 +43,13 @@ def data_extraction(api_response,response_extraction_in_excel):
     if isinstance(response_extraction_in_excel, dict):
       # Iterate over the key-value pairs in the dictionary
         for key,value in response_extraction_in_excel.items():
-            try:
+            value_to_save=None
+            if value.startswith('$'):
                 # extract teh value from api_response using jsonpath
                 value_to_save=jsonpath(api_response, value)[0]
                 logger.info(f'data found from API response is {value_to_save}')
+            elif v=='text':
+                value_to_save = api_response.text #In Python, when dealing with HTTP responses, you can use the .text attribute to get the response body as a string.
                 # set the attribute in EnvironmentalData class
                 setattr(EnviromentalData,key,value_to_save)
                 logger.info(f'data has been saved into the environmental files attribute is {EnviromentalData.__dict__}')
