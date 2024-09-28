@@ -101,8 +101,9 @@ def requests_api(case,token=None):
             response_data = resp.json()  # Try to parse as JSON
         except requests.JSONDecodeError:
             response_data = resp.text  # If not JSON, treat it as plain text
+            print(response_data)
 
-        data_extraction(response_data,response_extraction_in_excel)
+        data_extraction(resp,response_extraction_in_excel)
         logger.info(f'data  in response_extraction column of the excel sheet is {response_extraction_in_excel} ')
     else:
         logger.error('Response is None; no request was made')
@@ -139,10 +140,29 @@ if __name__ =='__main__':
     #
 
 
-    login_testcase1 ={'test_case': 'login_001', 'case_details': 'Login_in_sucessful', 'request_method': 'post',
-     'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}',
-     'request_parameter': '{"principal": "lemon_py", "credentials": "12345678", "appType": 3, "loginType": 0}',
-     'expected_result': '{"$..nickName":"lemon_py","$..enabled":true}', 'response_extraction': None,
-     'database_assertion': None, 'pre_sql': None}
+    # login_testcase1 ={'test_case': 'login_001', 'case_details': 'Login_in_sucessful', 'request_method': 'post',
+    #  'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}',
+    #  'request_parameter': '{"principal": "lemon_py", "credentials": "12345678", "appType": 3, "loginType": 0}',
+    #  'expected_result': '{"$..nickName":"lemon_py","$..enabled":true}', 'response_extraction': None,
+    #  'database_assertion': None, 'pre_sql': None}
+    #
+    # requests_api(login_testcase1, token=None)
 
-    requests_api(login_testcase1, token=None)
+
+    # case_2= {'test_case': 2, 'case_details': 'press next step to verify registration SMS verification code', 'request_method': 'PUT', 'url': 'http://shop.lemonban.com:8107/user/checkRegisterSms', 'request_header': '{"Content-Type": "application/json; charset=UTF-8"}', 'request_parameter': '{"mobile":"#gen_unregister_phone#","validCode":"#mobile_code#"}', 'expected_result': None, 'response_extraction': '{"check_code":"text"}', 'pre_sql': '{"mobile_code":\n"select mobile_code  from tz_sms_log where user_phone=\'#gen_unregister_phone#\' order by rec_date desc limit 1;"}', 'database_assertion': None}
+    #
+    # requests_api(case_2, token=None)
+
+    login_case = {'test_case': 'login_002', 'case_details': 'Login_in_fail', 'request_method': 'post',
+     'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json"}',
+     'request_parameter': '{"principal": "", "credentials": "lemon123456", "appType": 3, "loginType": 0}',
+     'expected_result': '{"text":"账号或密码不正确"}', 'response_extraction': None, 'database_assertion': None,
+     'pre_sql': None}
+
+    login_case_3 = {'test_case': 'login_003', 'case_details': 'Login_in_fail (usename<4letters)', 'request_method': 'post',
+     'url': 'http://shop.lemonban.com:8107/login', 'request_header': '{"Content-Type":"application/json;charset=UTF-8"}',
+     'request_parameter': '{"principal": "lem", "credentials": "lemon123456", "appType": 3, "loginType": 0}',
+     'expected_result': '{"text":"账号或密码不正确"}', 'response_extraction': None, 'database_assertion': None,
+     'pre_sql': None}
+
+    requests_api(login_case_3, token=None)

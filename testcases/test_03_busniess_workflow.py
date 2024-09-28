@@ -1,3 +1,4 @@
+import allure
 import pytest
 from tools.handle_excel import read_excel
 from tools.handle_path import excel_path_xinyangapitesting
@@ -12,6 +13,9 @@ third_case= case_all[:3]
 fourth_case= case_all[:4]
 fifth_case= case_all[:5]
 
+
+@allure.suite('Order Submission Module - a Business Flow')
+@allure.title('{case[case_details]}')
 @pytest.mark.parametrize('case',case_all)
 # @pytest.mark.parametrize('case',case_all,ids=[f"case_{i}" for i in range(len(case_all))])
 def test_business_workflow(case):

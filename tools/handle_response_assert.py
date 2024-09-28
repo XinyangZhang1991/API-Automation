@@ -21,8 +21,18 @@ def response_assertion(actual_response,expected_result):
             except AssertionError as e:
                 logger.error('assertion failed')
                 raise e
+        elif key=='text':
+            actual_data=actual_response.text
+            logger.info (f'the actual result is ;{actual_data}')
+            try:
+                assert actual_data == value
+                logger.info(f'assertion was successful')
+            except AssertionError as e:
+                logger.error('assertion failed')
+                raise e
 
 if __name__ == '__main__':
-    actual_response = {"orderShopParam": [{"remarks": "", "shopId": 1}]}
-    json =actual_response.json()
-    print (json)
+    actual_response='账号或密码不正确'
+    expected_result={"text":"账号或密码不正确"}
+
+    response_assertion(actual_response, expected_result)
