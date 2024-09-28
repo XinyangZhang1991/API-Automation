@@ -1,0 +1,16 @@
+2024-09-27 22:32:09.105 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-27 22:32:09.105 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}
+2024-09-27 22:32:09.105 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['token_type', 'access_token'] 
+2024-09-27 22:32:09.105 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"Content-Type":"application/json","Authorization": "#token_type##access_token#"}
+2024-09-27 22:32:09.105 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: {"Content-Type":"application/json","Authorization": "#token_type##access_token#"}
+2024-09-27 22:32:09.105 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-27 22:32:09.105 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to []
+2024-09-27 22:32:09.105 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: []
+2024-09-27 22:32:09.105 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/p/shopCart/info
+2024-09-27 22:32:09.105 | INFO     | tools.handle_request_api:requests_api:52 - Method: post
+2024-09-27 22:32:09.105 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {'Content-Type': 'application/json', 'Authorization': '#token_type##access_token#'}
+2024-09-27 22:32:09.106 | INFO     | tools.handle_request_api:requests_api:54 - Params: []
+2024-09-27 22:32:09.730 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-27 22:32:09.730 | INFO     | tools.handle_request_api:requests_api:97 - response status code:401
+2024-09-27 22:32:09.730 | INFO     | tools.handle_request_api:requests_api:98 - response body: {"error":"unauthorized","error_description":"Full authentication is required to access this resource"}
+2024-09-27 22:32:09.730 | INFO     | tools.handle_extraction:data_extraction:38 - data has been extracted from excelsheet is {'basketId': '$..basketId'}

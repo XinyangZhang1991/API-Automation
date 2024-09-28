@@ -1,0 +1,25 @@
+2024-09-27 22:31:55.268 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-27 22:31:55.268 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"mobile_code":
+"select mobile_code  from tz_sms_log where user_phone='#gen_unregister_phone#' order by rec_date desc limit 1;"}
+2024-09-27 22:31:55.268 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['gen_unregister_phone'] 
+2024-09-27 22:31:55.269 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"mobile_code":
+"select mobile_code  from tz_sms_log where user_phone='15157041697' order by rec_date desc limit 1;"}
+2024-09-27 22:31:55.269 | INFO     | tools.handle_presql:pre_sql:11 - --------pre-sql-query-start--------
+2024-09-27 22:31:55.269 | INFO     | tools.handle_presql:pre_sql:15 - pre-sql query is {'mobile_code': "select mobile_code  from tz_sms_log where user_phone='15157041697' order by rec_date desc limit 1;"}
+2024-09-27 22:31:58.540 | INFO     | tools.handle_presql:pre_sql:25 - the result that has been saved as environmental attribute is {'__module__': 'data.Environmental_Data', 'display_attributes': <function EnviromentalData.display_attributes at 0x105eafec0>, '__dict__': <attribute '__dict__' of 'EnviromentalData' objects>, '__weakref__': <attribute '__weakref__' of 'EnviromentalData' objects>, '__doc__': None, 'gen_unregister_phone': '15157041697', 'mobile_code': '493616'}
+2024-09-27 22:31:58.540 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-27 22:31:58.540 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"Content-Type": "application/json; charset=UTF-8"}
+2024-09-27 22:31:58.541 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: {"Content-Type": "application/json; charset=UTF-8"}
+2024-09-27 22:31:58.541 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-27 22:31:58.541 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"mobile":"#gen_unregister_phone#","validCode":"#mobile_code#"}
+2024-09-27 22:31:58.541 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['gen_unregister_phone', 'mobile_code'] 
+2024-09-27 22:31:58.541 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"mobile":"15157041697","validCode":"493616"}
+2024-09-27 22:31:58.541 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: {"mobile":"15157041697","validCode":"493616"}
+2024-09-27 22:31:58.541 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/user/checkRegisterSms
+2024-09-27 22:31:58.542 | INFO     | tools.handle_request_api:requests_api:52 - Method: PUT
+2024-09-27 22:31:58.542 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {'Content-Type': 'application/json; charset=UTF-8'}
+2024-09-27 22:31:58.542 | INFO     | tools.handle_request_api:requests_api:54 - Params: {'mobile': '15157041697', 'validCode': '493616'}
+2024-09-27 22:31:59.245 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-27 22:31:59.245 | INFO     | tools.handle_request_api:requests_api:97 - response status code:200
+2024-09-27 22:31:59.245 | INFO     | tools.handle_request_api:requests_api:98 - response body: d14d893f8e4b4d0bb5b2470dfbe50053
+2024-09-27 22:31:59.246 | INFO     | tools.handle_extraction:data_extraction:38 - data has been extracted from excelsheet is {'check_code': 'text'}

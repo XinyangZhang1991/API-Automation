@@ -1,0 +1,20 @@
+2024-09-27 22:31:59.317 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-27 22:31:59.317 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to { "Content-Type": "application/json; charset=UTF-8"}
+2024-09-27 22:31:59.317 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: { "Content-Type": "application/json; charset=UTF-8"}
+2024-09-27 22:31:59.317 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-27 22:31:59.317 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"appType":3,"checkRegisterSmsFlag":"#check_code#","mobile":"#gen_unregister_phone#","userName":"#gen_unregister_name()#","password":"123456","registerOrBind":1,"validateType":1}
+2024-09-27 22:31:59.317 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['check_code', 'gen_unregister_phone', 'gen_unregister_name()'] 
+2024-09-27 22:32:04.895 | INFO     | tools.handle_mysql:query_data:39 - no data found in database
+2024-09-27 22:32:04.895 | INFO     | tools.handle_replacement:replace_data:33 - data generated from faker saved into environmental variable is {'__module__': 'data.Environmental_Data', 'display_attributes': <function EnviromentalData.display_attributes at 0x105eafec0>, '__dict__': <attribute '__dict__' of 'EnviromentalData' objects>, '__weakref__': <attribute '__weakref__' of 'EnviromentalData' objects>, '__doc__': None, 'gen_unregister_phone': '15157041697', 'mobile_code': '493616', 'gen_unregister_name': 'mingshi'}
+2024-09-27 22:32:04.895 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"appType":3,"checkRegisterSmsFlag":"#check_code#","mobile":"15157041697","userName":"mingshi","password":"123456","registerOrBind":1,"validateType":1}
+2024-09-27 22:32:04.895 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: {"appType":3,"checkRegisterSmsFlag":"#check_code#","mobile":"15157041697","userName":"mingshi","password":"123456","registerOrBind":1,"validateType":1}
+2024-09-27 22:32:04.896 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/user/registerOrBindUser
+2024-09-27 22:32:04.896 | INFO     | tools.handle_request_api:requests_api:52 - Method: PUT
+2024-09-27 22:32:04.896 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {'Content-Type': 'application/json; charset=UTF-8'}
+2024-09-27 22:32:04.896 | INFO     | tools.handle_request_api:requests_api:54 - Params: {'appType': 3, 'checkRegisterSmsFlag': '#check_code#', 'mobile': '15157041697', 'userName': 'mingshi', 'password': '123456', 'registerOrBind': 1, 'validateType': 1}
+2024-09-27 22:32:05.523 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-27 22:32:05.523 | INFO     | tools.handle_request_api:requests_api:97 - response status code:400
+2024-09-27 22:32:05.524 | INFO     | tools.handle_request_api:requests_api:98 - response body: The verification code has expired. Please resend the verification code for verification
+2024-09-27 22:32:05.524 | INFO     | tools.handle_extraction:data_extraction:10 - no data extraction
+2024-09-27 22:32:05.524 | INFO     | tools.handle_request_api:requests_api:106 - data  in response_extraction column of the excel sheet is None 
+2024-09-27 22:32:05.524 | INFO     | tools.handle_response_assert:response_assertion:8 - no need to do assertion

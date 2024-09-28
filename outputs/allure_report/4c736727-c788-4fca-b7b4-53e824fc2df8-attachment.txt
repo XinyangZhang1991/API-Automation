@@ -1,0 +1,16 @@
+2024-09-27 22:31:49.950 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-27 22:31:49.950 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"Content-Type":"application/json"}
+2024-09-27 22:31:49.950 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: {"Content-Type":"application/json"}
+2024-09-27 22:31:49.950 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-27 22:31:49.950 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"principal": "lemon_py", "credentials": "", "appType": 3, "loginType": 0}
+2024-09-27 22:31:49.950 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: {"principal": "lemon_py", "credentials": "", "appType": 3, "loginType": 0}
+2024-09-27 22:31:49.950 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/login
+2024-09-27 22:31:49.950 | INFO     | tools.handle_request_api:requests_api:52 - Method: post
+2024-09-27 22:31:49.950 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {'Content-Type': 'application/json'}
+2024-09-27 22:31:49.950 | INFO     | tools.handle_request_api:requests_api:54 - Params: {'principal': 'lemon_py', 'credentials': '', 'appType': 3, 'loginType': 0}
+2024-09-27 22:31:50.705 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-27 22:31:50.705 | INFO     | tools.handle_request_api:requests_api:97 - response status code:400
+2024-09-27 22:31:50.705 | INFO     | tools.handle_request_api:requests_api:98 - response body: Incorrect account or password
+2024-09-27 22:31:50.705 | INFO     | tools.handle_extraction:data_extraction:10 - no data extraction
+2024-09-27 22:31:50.706 | INFO     | tools.handle_request_api:requests_api:106 - data  in response_extraction column of the excel sheet is None 
+2024-09-27 22:31:50.706 | INFO     | tools.handle_response_assert:response_assertion:10 - ------assertion started-------

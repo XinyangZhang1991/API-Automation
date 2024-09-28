@@ -1,0 +1,15 @@
+2024-09-27 22:32:07.453 | INFO     | tools.handle_replacement:replace_data:10 - no data in excel sheet shows need replacement
+2024-09-27 22:32:07.453 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: None
+2024-09-27 22:32:07.453 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-27 22:32:07.453 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"prodId":"#prodId#"}
+2024-09-27 22:32:07.453 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['prodId'] 
+2024-09-27 22:32:07.453 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"prodId":"#prodId#"}
+2024-09-27 22:32:07.453 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: {"prodId":"#prodId#"}
+2024-09-27 22:32:07.454 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/prod/prodInfo
+2024-09-27 22:32:07.454 | INFO     | tools.handle_request_api:requests_api:52 - Method: get
+2024-09-27 22:32:07.454 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {}
+2024-09-27 22:32:07.454 | INFO     | tools.handle_request_api:requests_api:54 - Params: {'prodId': '#prodId#'}
+2024-09-27 22:32:08.373 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-27 22:32:08.373 | INFO     | tools.handle_request_api:requests_api:97 - response status code:400
+2024-09-27 22:32:08.373 | INFO     | tools.handle_request_api:requests_api:98 - response body: {"timestamp":"2024-09-28 05:32:08","status":400,"error":"Bad Request","message":"","path":"/prod/prodInfo"}
+2024-09-27 22:32:08.373 | INFO     | tools.handle_extraction:data_extraction:38 - data has been extracted from excelsheet is {'skuId': '$..skuId'}
