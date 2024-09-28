@@ -3,7 +3,7 @@ import pytest
 
 
 # 每次执行一次就会又重复生成结果文件不会清楚;会影响报告结果，所以 需要加一个清除的参数:
-pytest.main(["-v","--alluredir=outputs/allure_report","--clean-alluredir"])
+# pytest.main(["-v","--alluredir=outputs/allure_report","--clean-alluredir"])
 
 
 # # 运行生成allure测试报告
