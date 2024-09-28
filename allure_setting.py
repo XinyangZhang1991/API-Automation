@@ -22,3 +22,7 @@ pytest.main(["-v","--alluredir=outputs/allure_report","--clean-alluredir"])
 # -  因为每次执行代码的时候 都会生成新的allure结果json文件，不会自动删除；报告又不会读取旧的文件；
 #   - 所以一般都默认加上清除历史文件的参数："--clean-alluredir"
 #   - 每次生成结果之前 先删除历史文件。
+
+
+#pytest --alluredir=allure-results
+#allure serve allure-results
