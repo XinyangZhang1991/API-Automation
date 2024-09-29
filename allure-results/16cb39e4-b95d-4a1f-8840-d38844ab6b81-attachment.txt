@@ -1,0 +1,20 @@
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"Content-Type":"application/json","Authorization": "#token_type##access_token#"}
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['token_type', 'access_token'] 
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"Content-Type":"application/json","Authorization": "bearer5f899c19-34ed-4b73-99ed-b33952e3ff67"}
+2024-09-28 22:39:54.053 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: {"Content-Type":"application/json","Authorization": "bearer5f899c19-34ed-4b73-99ed-b33952e3ff67"}
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:20 - -----data_replacement_start------
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:21 - the original data will be replaced is:{"basketId": 0, "count": 1, "prodId": "#prodId#", "shopId": 1, "skuId": "#skuId#"}
+2024-09-28 22:39:54.053 | INFO     | tools.handle_replacement:replace_data:22 - the key needs to be replaced are ['prodId', 'skuId'] 
+2024-09-28 22:39:54.054 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"basketId": 0, "count": 1, "prodId": "28", "shopId": 1, "skuId": "7177"}
+2024-09-28 22:39:54.054 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: {"basketId": 0, "count": 1, "prodId": "28", "shopId": 1, "skuId": "7177"}
+2024-09-28 22:39:54.054 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/p/shopCart/changeItem
+2024-09-28 22:39:54.054 | INFO     | tools.handle_request_api:requests_api:52 - Method: post
+2024-09-28 22:39:54.054 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {'Content-Type': 'application/json', 'Authorization': 'bearer5f899c19-34ed-4b73-99ed-b33952e3ff67'}
+2024-09-28 22:39:54.054 | INFO     | tools.handle_request_api:requests_api:54 - Params: {'basketId': 0, 'count': 1, 'prodId': '28', 'shopId': 1, 'skuId': '7177'}
+2024-09-28 22:39:54.768 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-28 22:39:54.768 | INFO     | tools.handle_request_api:requests_api:97 - response status code:200
+2024-09-28 22:39:54.768 | INFO     | tools.handle_request_api:requests_api:98 - response body: Added successfully
+2024-09-28 22:39:54.768 | INFO     | tools.handle_extraction:data_extraction:10 - no data extraction
+2024-09-28 22:39:54.769 | INFO     | tools.handle_request_api:requests_api:107 - data  in response_extraction column of the excel sheet is None 
+2024-09-28 22:39:54.769 | INFO     | tools.handle_response_assert:response_assertion:8 - no need to do assertion

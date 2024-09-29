@@ -4,7 +4,7 @@ import requests
 from tools.handle_excel import read_excel
 from tools.handle_path import excel_path_xinyangapitesting
 from tools.handle_request_api import requests_api
-from tools.handle_response_assert import response_assertion
+from tools.handle_response_assertion import response_assertion
 
 # read out the data into dictionary format from my excel spreadsheet
 all_case = read_excel(excel_path_xinyangapitesting,'login')

@@ -1,0 +1,20 @@
+2024-09-28 22:39:26.816 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-28 22:39:26.817 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"Content-Type":"application/json"}
+2024-09-28 22:39:26.817 | INFO     | tools.handle_request_api:requests_api:23 - Header after replacement: {"Content-Type":"application/json"}
+2024-09-28 22:39:26.817 | INFO     | tools.handle_replacement:replace_data:41 - no value need replacement, [] no need to replace data 
+2024-09-28 22:39:26.817 | INFO     | tools.handle_replacement:replace_data:42 - the placeholder has been replaced to {"principal": "lemon_py", "credentials": "12345678", "appType": 3, "loginType": 0}
+2024-09-28 22:39:26.817 | INFO     | tools.handle_request_api:requests_api:25 - parameter after replacement is: {"principal": "lemon_py", "credentials": "12345678", "appType": 3, "loginType": 0}
+2024-09-28 22:39:26.817 | INFO     | tools.handle_request_api:requests_api:51 - URL: http://shop.lemonban.com:8107/login
+2024-09-28 22:39:26.817 | INFO     | tools.handle_request_api:requests_api:52 - Method: post
+2024-09-28 22:39:26.817 | INFO     | tools.handle_request_api:requests_api:53 - Headers: {'Content-Type': 'application/json'}
+2024-09-28 22:39:26.817 | INFO     | tools.handle_request_api:requests_api:54 - Params: {'principal': 'lemon_py', 'credentials': '12345678', 'appType': 3, 'loginType': 0}
+2024-09-28 22:39:27.968 | INFO     | tools.handle_request_api:requests_api:96 - ---response message------
+2024-09-28 22:39:27.969 | INFO     | tools.handle_request_api:requests_api:97 - response status code:200
+2024-09-28 22:39:27.969 | INFO     | tools.handle_request_api:requests_api:98 - response body: {"access_token":"d828f851-d277-4b21-acfe-7cf6ff5e942b","token_type":"bearer","refresh_token":"716bee45-8182-42dd-9cec-7258fabad3f0","expires_in":1295999,"pic":"http://shop.lemonban.com:8108/2024/09/4be625e375da4628a3729d6eb8982800.png","userId":"8d0aa6ffd73a42a0acf5006817c0a564","nickName":"lemon_py","enabled":true}
+2024-09-28 22:39:27.969 | INFO     | tools.handle_extraction:data_extraction:10 - no data extraction
+2024-09-28 22:39:27.969 | INFO     | tools.handle_request_api:requests_api:107 - data  in response_extraction column of the excel sheet is None 
+2024-09-28 22:39:27.969 | INFO     | tools.handle_response_assert:response_assertion:10 - ------assertion started-------
+2024-09-28 22:39:27.970 | INFO     | tools.handle_response_assert:response_assertion:17 - the actual result is ;lemon_py
+2024-09-28 22:39:27.970 | INFO     | tools.handle_response_assert:response_assertion:20 - assertion was successful
+2024-09-28 22:39:27.970 | INFO     | tools.handle_response_assert:response_assertion:17 - the actual result is ;True
+2024-09-28 22:39:27.971 | INFO     | tools.handle_response_assert:response_assertion:20 - assertion was successful
