@@ -23,6 +23,8 @@ def requests_api(case,token=None):
     logger.info(f"Header after replacement: {header}")
     param=replace_data(param)
     logger.info(f"parameter after replacement is: {param}")
+    url = replace_data(url)
+    logger.info(f"Header after replacement: {url}")
 
     if header is None:  # Ensure that `header` is a dictionary, even if None initially
         header={}

@@ -5,86 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1137dfd1-7f38-4824-8df8-411ecd09fd84" name="Changes" comment="added allure, made some update on the extraction files">
-      <change beforePath="$PROJECT_DIR$/.idea/API-Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API-Automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2024,_21_33_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_09_2024__21_33__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]2/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/00f8dbfc-5a9e-4d78-b0c4-4fd6fe16126e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/01e26f8c-9e41-4228-94a4-e3c7a3978e13-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/04bebc7f-8390-4c2e-b5b2-48f54b07e9e5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0f992aa7-cde9-424d-ab1a-23ed44222047-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1521d887-4454-4ed9-a3b1-524120710b7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/16ad9f04-2514-441f-ab76-64d8c9a2f733-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/16cb39e4-b95d-4a1f-8840-d38844ab6b81-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1af61544-f8f0-403c-8aff-334b79593741-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/340bc07e-9732-47f1-b5c5-008604344f19-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/360c42c7-fe2d-42b8-a889-e19d0a986530-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3ac60ee4-99a0-4409-ad40-8511e22017b7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3ba20496-45a4-4f10-8401-9611cb8ba926-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3ce095ad-fa54-46ad-9a2c-7ab43df26f86-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3e780375-6020-4850-a9b4-b5e5828e097c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/41c2d535-0723-434a-8153-87d15eac6d63-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/45ccc130-3fd9-43d8-ae67-8802ac23e6da-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/479e4494-a75e-48af-93df-a740af79c0cf-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/48c8f250-fefc-4d87-a592-a7ee2b3eca04-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4975704c-d62c-46e2-8077-4a8c03a2de9b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4db1d99b-9e0f-4d4e-9635-0adcc4cf800c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4ec8b0ea-7411-4925-945d-0c3337e7a92d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5318cc39-ac75-456d-b87a-7877433d7766-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5949cf9d-b920-4ef1-b308-f82714e807a9-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5c090369-f743-4b0b-b37b-7a4563bec615-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5f967ebc-4c26-4257-91b5-925110010bdb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/653c9d31-45cb-4366-8887-59ca86db9055-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6f19aa04-f181-4a24-a1aa-7523499f883d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7817c000-5078-4b05-826f-010aae650104-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/80c1132a-0b7b-45aa-ab8b-f30f544b7bea-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/82532187-6912-4347-8727-50826c1676f1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/868671de-14d1-4bf1-b251-2bfb5c651b99-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/876bd10d-d3e7-4284-864b-7f6318dc3228-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8933bf07-bdcf-4fc7-9e45-a5a8b611f79d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/895d9e2b-2a79-48b4-a7c6-a7c0912c168d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8f6a0f69-8f47-4ad6-a4c6-fc3cc558fb45-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/910cdb1b-3ad0-414c-abb5-e36133c9b36c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/928545c4-9190-4e55-9d8f-1132b9b7223e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/96684e24-6f4b-42b6-82a1-fc6d2d53caab-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/981f6996-6c23-4408-ad09-62af8ca48079-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9a3d49b0-2087-4733-85e4-4005c51c4737-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9c661fb2-bca8-40d2-8492-3e5d8fb1c391-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9c8f45fd-05cb-4ed3-90cd-f3295437ed3f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a0e9dcc3-2193-411e-9913-49857130df85-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a1c8dc8b-5eca-4b6d-97b3-9e16ca010d3d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a2f15876-c3d0-41ff-aa44-794a6e188493-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a5a5bd9c-d0a9-4a64-a65e-2d10ba06f631-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a9ec1d30-3b46-4e53-a651-2a0e0fb96f4c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ab2e24ef-6f0e-4412-a9cd-b44477275e5d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/abdd2a24-7ad5-4fae-ae7a-620dd6c4d2e7-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b7a489c1-65b4-4186-89d4-647a0ff7ac7f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b89bd146-1ed3-4210-9fe8-9d0ac8a4d30b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b9d8f4fb-a29a-4344-ac92-3f9a1293ccca-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c490e925-7e8d-4ae4-9c8c-6d24f0de882c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c57080bd-ee0f-4444-935c-32c71a683edf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c7086388-c950-4ae0-a18c-4f3c932e2213-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c71c189c-b92f-4f2e-ba9c-a32baedff97d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c936fad6-53cc-46cc-885e-984828805872-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cd03760c-44d0-49f2-82da-ca5e772dd40d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d11f54e0-400b-4366-9733-7e69599eb091-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d757def2-10a0-47e4-b1aa-ceae83c2e3b2-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d9b277c6-b8e4-4b8a-9d3f-f2cd097c7de0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/de347436-8790-409b-8f5a-cbd1641ea30d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e501d948-effb-4929-a8ce-8ec9d5c9b22d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/efead5e8-ab20-42ba-beb5-8c95744530d3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f328a23f-df29-45f7-af71-a7439c3947ec-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f5928d55-b1d4-4867-b1a4-7a90ea308dd3-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/febf4d52-bda9-434b-8ef4-360e962abff9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/allure_setting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/xinyangapitesting own.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/xinyangapitesting own.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/db_assertion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/db_assertion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/handle_request_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/handle_request_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,42 +51,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python tests.Python tests for test_02_register.test_register_case.executor": "Run",
-    "Python tests.Python tests for test_02register.test_register_case.executor": "Run",
-    "Python tests.Python tests for test_busniess_workflow.test_business_workflow.executor": "Run",
-    "Python tests.Python tests for test_case1_login.test_login_case.executor": "Run",
-    "Python tests.Python tests in test_01_login.py.executor": "Run",
-    "Python tests.Python tests in test_02_register.py.executor": "Debug",
-    "Python tests.Python tests in test_02register.py.executor": "Run",
-    "Python tests.Python tests in test_busniess_workflow.py.executor": "Run",
-    "Python tests.Python tests in test_case1_login.py.executor": "Run",
-    "Python.Environmetnal_Data.executor": "Run",
-    "Python.Request.executor": "Run",
-    "Python.allure_setting.executor": "Run",
-    "Python.db_assertion.executor": "Run",
-    "Python.handle_excel (1).executor": "Run",
-    "Python.handle_excel.executor": "Run",
-    "Python.handle_extraction.executor": "Run",
-    "Python.handle_mysql.executor": "Run",
-    "Python.handle_path (1).executor": "Run",
-    "Python.handle_path.executor": "Run",
-    "Python.handle_replacement.executor": "Run",
-    "Python.handle_request_api.executor": "Run",
-    "Python.handle_response_assert.executor": "Run",
-    "Python.random try.executor": "Run",
-    "Python.test_02register.executor": "Run",
-    "Python.testcase1_login.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/lemon/Python工具代码资料/20240301_py66第二十一节课-allure定制和Jenkins加git持续集成",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_02_register.test_register_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_02register.test_register_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_busniess_workflow.test_business_workflow.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case1_login.test_login_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_01_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_02_register.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_02register.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_03_busniess_workflow.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_busniess_workflow.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_case1_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Environmetnal_Data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Request.executor&quot;: &quot;Run&quot;,
+    &quot;Python.allure_setting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_assertion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_excel (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_excel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_extraction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_mysql.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_path (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_path.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_replacement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_request_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_response_assert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random try.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_02register.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testcase1_login.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/lemon/Python工具代码资料/20240301_py66第二十一节课-allure定制和Jenkins加git持续集成&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -172,8 +97,8 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.db_assertion">
-    <configuration name="db_assertion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.allure_setting">
+    <configuration name="allure_setting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/db_assertion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/allure_setting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,48 +120,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_02_register.test_register_case" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API-Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/handle_mysql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_01_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="API-Automation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/test_01_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_02_register.test_register_case&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_01_login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -269,12 +165,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_03_busniess_workflow.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API-Automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_03_busniess_workflow.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.db_assertion" />
-        <item itemvalue="Python.handle_mysql" />
+        <item itemvalue="Python.allure_setting" />
+        <item itemvalue="Python tests.Python tests in test_03_busniess_workflow.py" />
+        <item itemvalue="Python tests.Python tests for test_02_register.test_register_case" />
         <item itemvalue="Python tests.Python tests in test_01_login.py" />
-        <item itemvalue="Python.test_01_login" />
         <item itemvalue="Python tests.Python tests in test_02_register.py" />
       </list>
     </recent_temporary>
